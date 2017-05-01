@@ -1,0 +1,495 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+	background-color: #fff;
+	margin: auto;
+}
+
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	line-height: 0;
+	content: ".";
+	visibility: hidden;
+}
+
+header{
+	background-color:#3373B8;
+}
+
+.hero a img {
+	padding-top: 28px;
+	padding-left: 15px;
+}
+
+.coach {
+	background-image: url("../images/golf-instruction-hero-bw.jpg");
+    background-repeat: no-repeat;
+	margin: 0; 
+	height:590px;
+    background-size: cover;
+	overflow: hidden;
+	width:100%;
+}
+
+.hero {
+	background-image: url("../images/smartgolfhero2.png");
+    background-repeat: no-repeat;
+	margin: 0; 
+	height:590px;
+    background-size: cover;
+	overflow: hidden;
+	width:100%;
+}
+
+.hero h2 {
+	font-family: 'Catamaran', sans-serif;
+  	font-weight: 900;
+  	font-size: 65px;
+  	line-height: 65px;
+  	text-transform: uppercase;
+  	color:#fff;
+  	text-align: left; 
+  	padding-left: 5%;
+	padding-right: 35%;
+	padding-top: 12%;
+	padding-bottom: 0%;
+}
+
+.hero p{
+  	font-family: "Roboto",sans-serif;
+  	font-style: normal;
+  	font-weight: 400;
+  	font-size: 20px;
+	color:#fff;
+	text-align: left;
+  	padding-left: 5%;
+  	padding-top: 0px;
+  	padding-bottom: 20px;
+}
+
+.hero a{
+  	font-family: "Roboto",sans-serif;
+  	font-style: normal;
+  	font-weight: 400;
+  	font-size: 14px;
+	color:#fff;
+	text-align: center;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.performance h5 {
+	font-family: 'Catamaran', sans-serif;
+  	font-weight: 900;
+  	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	padding: 20px;
+}
+
+.analysis .details1 {
+	float: left;
+	display: inline;
+	width: 65%;
+}
+.analysis .details2 {
+	background-color: #C2D5EA;
+	float: right;
+	display: inline;
+	width: 35%;
+	height: 425px;
+}
+
+
+h1 {
+	float: left;
+	margin-top: -40px;
+	padding-left: 25px;
+}
+
+h4 {
+	float: left;
+	color: #000;
+	text-align: left;
+	font-size: 28px;
+	padding: 40px 100px 20px 85px;
+}
+
+p {
+	color: #000;
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.875rem;
+	padding: 40px 50px 0px 85px;
+}
+
+ul {
+	margin: 30px;
+}
+
+li {
+	list-style: none;
+	float: right;
+}
+
+p a {
+	background-color: #fff;
+    box-shadow: 0px 3px 0px #9B9B9B;
+    border: none;
+    padding: 5px 25px;
+    margin-top: 18px;
+    text-align: center;
+    color: #000;
+	text-decoration: none;
+}
+
+.details2 {
+	padding-top: 40px;
+}
+
+.accordionbody {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #000;
+    padding: 0 40px 40px 0;
+}
+
+.accordion {
+	margin: 0px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.accordion dd {
+	height: 400px;
+
+}
+
+.accordion dt,
+.accordion dd {
+	padding: 18px;
+}
+
+.accordion dt a,
+.accordion dd a {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 25px;
+}
+
+.accordion dt {
+	background-image: url("../images/triangleclosed.png");
+	background-position: top 23px right 23px;
+    background-repeat: no-repeat;
+    background-size: 14px;	
+}
+
+.accordion dt.open {
+	background-image: url("../images/triangleopen.png");
+	background-position: top 23px right 23px;
+    background-repeat: no-repeat;
+    background-size: 14px;	
+}
+
+.accordion dt.accordion-title{
+	background-color: #3272B8;
+	color: white;
+}
+
+.accordion dt.accordion-title:nth-child(4n+1){
+	background-color: #0A4383;
+	color: white;
+}
+
+.accordion dd {
+	margin: 0;
+	border-top-width: 0;
+	font-size: .875rem;
+	line-height: 1.875rem;
+	background-color: #fff;
+}
+
+.accordion dd:last-of-type {
+	border-bottom-width: 1px;
+}
+
+.accordion dd.trackman {
+	background-color: #EC691A;
+	color: white;
+}
+
+.accordion dd.trackman p {
+	background-color: #EC691A;
+
+}
+
+
+/* Program Selector */
+.programs h6 {
+	background-color: #3272B8;
+	font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	font-size: 50px;
+	padding: 20px;
+	padding: 40px 200px 0px 200px;
+}
+
+.programs p{
+  	font-family: "Roboto",sans-serif;
+  	font-style: normal;
+  	font-weight: 400;
+	font-size: .875rem;
+	line-height: 1.875rem;
+	background-color: #0A4383;
+	color:#fff;
+	text-align: left;
+	margin-left: 270px;
+	margin-right: 300px;
+	padding: 30px 65px 31px 50px;
+}
+
+.program {
+	background-color: #3272B8;
+}
+
+.arrow {
+  	position: relative;
+	top: -50px;
+    right: 300px;
+  	background: #333;
+  	width: 50px;
+  	height: 50px;
+  	margin: 0 0 10px 0;
+  	text-align: center;
+  	color: #000;
+  	float: right;
+  	background-image: url("../images/triangleopen.png");
+	background-position: top 18px right 18px;
+    background-repeat: no-repeat;
+    background-size: 14px;	
+}
+
+.arrow a {
+    background-size: 14px;	
+    color: #000;
+  	text-decoration: none;
+  	line-height: 44px;
+}
+
+.arrow .menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  background-color: #C6C6C6;
+  /*opacity: .3;*/
+}
+
+.arrow .menu ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+.arrow .menu ul li{
+  margin: 0;
+  width: 200px;
+}
+
+.arrow .menu ul li a{
+	font-family: "Roboto",sans-serif;
+  	font-style: normal;
+  	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.875rem;	
+	padding: 10px;
+	display: block;
+}
+
+.arrow .menu ul li a:hover {
+  background: #999;
+}
+
+.item {
+  display: none;
+}
+
+.item.visible {
+  display: block;
+  background-color: black;
+  color: white;
+  float: left;
+  padding: 65px 33px;
+  margin-left: 120px;
+}
+
+/* Meet Our Team*/
+.meet-our-team  {
+	background-color: #fff;
+	color: #3272B8
+}
+
+.meet-our-team h6 {
+	background-color: #fff;
+	font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+	color: #3272B8;
+	text-align: left;
+	font-size: 50px;
+	padding: 20px;
+	padding: 40px 200px 0px 200px;
+}
+
+.image-wrapper {
+	margin-left: 193px;
+	margin-right: 193px;
+}
+
+.col1 {
+	float: left
+}	
+.joe {
+	float: left
+}
+.tommy {
+	float: left
+}
+.max {
+	float:left;
+}
+
+}
+.col2 {
+	float: left
+}
+.blake {
+	float: left
+}
+.april {
+	float: left
+}
+.nestor {
+	float:left;
+}
+
+.team-preview-grid img {
+	float: left;
+	margin: 10px;
+    border: 4px solid #a2a2a2;
+
+}
+
+.team-preview-grid img:hover {
+    border: 4px solid #3272B8;
+ }
+
+.team-preview-grid p  {
+    font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 25px 25px;	
+    padding-top: 10px;
+}
+
+
+.clubfitting {
+	background-color: #000;
+	color: #fff;
+	float: left;
+	width: 100%;
+}
+
+.clubfitting .fitting h6 {
+	background-color: #000;
+	font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 40px;
+}
+
+.clubfitting .fitting p {
+	color: #fff;
+	text-align: center;
+	font-size: .875rem;
+	line-height: 1.875rem;
+	padding: 0px 105px 0px 105px;
+}
+
+.clubfitting .fitting img {
+	padding: 0px 170px 0px 170px;
+}
+
+/* Buttons */
+dd .button {
+    background-color: #3272B8;
+    box-shadow: 0px 3px 0px #0A4383;
+    border: none;
+    color: white;
+    width: 150px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+dd .button a {
+    background-color: #3272B8;
+    box-shadow: 0px 3px 0px #0A4383;
+    border: none;
+    color: white;
+    width: 150px;
+    font-size: 14px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+p .button {
+    background-color: #3272B8;
+    box-shadow: 0px 3px 0px #0A4383;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+p .button1 {
+    background-color: #fff;
+    box-shadow: 0px 3px 0px #9B9B9B;
+    border: none;
+    color: #000;
+    padding: 10px 50px;
+    margin-top: 18px;
+    margin-right: 20px;
+    text-align: center;
+}
+p .button3 {
+	box-shadow: 0px 3px 0px #9B9B9B;
+    border: none;
+    color: #000;
+    padding: 3px 0px;
+    margin-top: 18px;
+    text-align: center;
+}
